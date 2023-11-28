@@ -1,0 +1,86 @@
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: image-set('https://www.amny.com/wp-content/uploads/2021/04/girls-inc.png') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-inline: 100px;
+}
+
+.logo {
+    font-size: 18px;
+    color: black;
+    user-select: none;
+    font-family: Cooper
+}
+
+.navigation .msbtn {
+    width: 165px;
+    height: 62px;
+    background-color: red;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    transition: .5s;
+}
+
+.navigation .donationbtn {
+    width: 165px;
+    height: 62px;
+    background-color: red;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    transition: .5s;
+}
+
+.navigation .signupbtn {
+    width: 165px;
+    height: 62px;
+    background-color: red;
+    border: 2px solid white;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    transition: .5s;
+}
+
+.navigation .msbtn:hover {
+    background: black;
+    color: red
+}
+
+.navigation .donationbtn:hover {
+    background: black;
+    color: red
+}
+
+.navigation .signupbtn:hover {
+    background: black;
+    color: red
+}
+
+.homebtn:hover {
+    background: black;
+    color: red
+}
